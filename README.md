@@ -9,3 +9,5 @@ Currently this is pretty verbose, and eventually should be refactored into suppo
 ```sh
 npx pdehaan/updates-json-lint --addon-id="secure-proxy@mozilla.com" --hostname=fpn.firefox.com --updates-json-uri=https://fpn.firefox.com/downloads/browser/updates.json
 ```
+
+**NOTE:** If `--hostname` is not specified, the script will use the hostname of the `--updates-json-uri` argument.
