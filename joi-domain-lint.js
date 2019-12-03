@@ -23,7 +23,11 @@ function domainLint(joi) {
         };
       }
 
-      if (url.hostname !== config.get("hostname")) {
+      let hostname = config.get("hostname");
+      if (!hostname) {
+        hostname = new URL(config.get("updatesJsonUri")).hostname;
+      }
+      if (url.hostname !== hostname) {
         return {
           value,
           errors: helpers.error(`${type}.wrongDomain`)
