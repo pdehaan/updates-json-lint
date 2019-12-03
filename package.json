@@ -1,0 +1,24 @@
+{
+  "name": "updates-json-lint",
+  "description": "Crude linter for updates.json files.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/updates-json-lint/issues"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "got": "^10.0.1"
+  },
+  "homepage": "https://github.com/pdehaan/updates-json-lint#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/updates-json-lint.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
