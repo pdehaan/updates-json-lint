@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^16.1.8",
-    "convict": "^5.2.0",
+    "convict": "^6.2.2",
     "got": "^10.0.1"
   },
   "devDependencies": {},
