@@ -10,7 +10,7 @@
   "dependencies": {
     "@hapi/joi": "^16.1.8",
     "convict": "^5.2.0",
-    "got": "^10.0.1"
+    "got": "^11.8.5"
   },
   "devDependencies": {},
   "homepage": "https://github.com/pdehaan/updates-json-lint#readme",
